@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 20%;
+    background-color: brown;
+    padding: 10px 20px 0px;
+    color: rgb(255, 227, 187);
+}
+.header {
+    background-color: rgb(255, 178, 70);
+    min-height: 150px;
+}
+.content {
+    background-color: rgb(255, 227, 187);
+    min-height: 350px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(255, 178, 70);
+    min-height: 50px;
+    padding: 5px 20px 10px;
+}
+#foto-header {
+    border: solid 5px brown;
+}
+table {
+    -webkit-box-shadow: 24px 24px 19px -8px rgba(107,92,61,1);
+    -moz-box-shadow: 24px 24px 19px -8px rgba(107,92,61,1);
+    box-shadow: 24px 24px 19px -8px rgba(107,92,61,1);
+    border: solid 2px rgb(165, 95, 42)
+}
+table tr:nth-child(even) td {
+    background-color: rgb(255, 245, 233);
+}
+table tr:hover td {
+    background-color:rgb(255, 217, 165);
+    cursor: pointer;
+}
+table thead th {
+    background-color: rgb(230, 181, 143);
+    color: aliceblue;
+}
+table tfoot td {
+    background-color: rgb(255, 216, 157);
+}
+fieldset
+{
+  background-color:rgb(255, 199, 120);
+  width:300px;
+  height:250px;
+  border-color: brown;
+}
